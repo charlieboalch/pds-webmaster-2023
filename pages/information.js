@@ -1,6 +1,5 @@
 import React from 'react';
-import { StyleSheet } from '../styles/Future.module.css';
-import styles from '../styles/information.module.css';
+import styles from '../styles/Information.module.css';
 import Image from "next/image";
 
 const information = () => {
