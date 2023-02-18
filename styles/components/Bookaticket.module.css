@@ -11,6 +11,12 @@
     transition: opacity 0.5s;
 }
 
+.close {
+    position: fixed;
+    top: 10vh;
+    left: 5vw;
+}
+
 .FormWrap{
     height: 100%;
     display: flex;

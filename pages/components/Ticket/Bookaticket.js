@@ -1,11 +1,15 @@
 import React from 'react'
 import styles from '../../../styles/components/Bookaticket.module.css'
 import Link from "next/link";
+import {ImCross} from "react-icons/im";
 
-const Bookaticket = ({ isOpen, toggle }) => {
+export const Bookaticket = ({ isOpen, toggle }) => {
     return (
         <>
         <div style={(!isOpen) ? {opacity: 0, pointerEvents: "none"} : {opacity: 1, pointerEvents: "all"}} className={styles.Container}>
+            <div className={styles.close} onClick={() => toggle()}>
+                <ImCross color="white"/>
+            </div>
             <div className={styles.FormWrap}>
                 <Link href="/"><div className={styles.Icon}>Cassiopeia Space</div></Link>
                 <div className={styles.FormContent}>
@@ -21,5 +25,3 @@ const Bookaticket = ({ isOpen, toggle }) => {
         </>
     )
 };
-
-export default Bookaticket;
