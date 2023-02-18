@@ -1,0 +1,154 @@
+.Container {
+    min-height: 692;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+    overflow: hidden;
+    background: linear-gradient(108deg, rgb(7, 1, 78) 0%, rgb(35, 31, 114) 100%);
+    transition: opacity 0.5s;
+}
+
+.FormWrap{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 400px) {
+    .FormWrap {
+        height: 80%;
+    }
+}
+
+.Icon {
+    margin-left: 32px;
+    margin-top: 32px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+@media screen and (max-width: 480px) {
+    .Icon {
+        margin-left: 16px;
+        margin-top: 8px;
+    }
+}
+
+.FormContent {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width: 480px) {
+    .FormContent{
+        padding: 10px;
+    }
+}
+
+.Form {
+    background: #010101;
+    max-width: 400px;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    margin: 0 auto;
+    padding: 80px 32px;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.9);
+}
+
+@media screen and (max-width: 400px) {
+    .Form {
+        padding: 32px 32px;
+    }
+}
+
+/* .FormH1 {
+    margin-bottom: 250px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+} */
+.FormLabel {
+    margin-bottom: 230px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+
+.FormInput {
+  position: relative;
+  width: 100%;
+  margin-top: .5rem;
+  margin-bottom: 2rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  color: #fff;
+  backdrop-filter: blur(10px);
+}
+
+/* input[type='email'] {
+  font-size: 1.5rem;
+} */
+
+.FormH1 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: white;
+}
+
+.FormContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+/* .FormLabel {
+    margin-bottom: 230px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 740px;
+} */
+
+/* .FormInput {
+    padding: 2% 1%;
+    margin-bottom: 40px;
+    border: none;
+    align-items: center;
+    align-self: center;
+    border-radius: 4px;
+} */
+
+.FormButton {
+    background: #403184;
+    padding: 18px 7px;
+    border: none;
+    display: flex;
+    margin-left: 60px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.Text {
+    text-align: center;
+    margin-top: 24px;
+    color: #fff;
+    font-size: 14px;
+}
