@@ -20,7 +20,7 @@ const Sidebar = ({ isOpen, toggle, book }) => {
                     <Link href='future' onClick={toggle}>
                         <div className={styles.sidebarlink}>Future Plans</div>
                     </Link>
-                    <Link href='astronaut' onClick={toggle}>
+                    <Link href='information' onClick={toggle}>
                         <div className={styles.sidebarlink}>Become an Astronaut</div>
                     </Link>
                 </div>
