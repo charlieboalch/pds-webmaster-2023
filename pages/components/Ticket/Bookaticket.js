@@ -2,7 +2,7 @@ import React from 'react'
 import styles from '../../../styles/components/Bookaticket.module.css'
 import Link from "next/link";
 
-export const Bookaticket = ({ isOpen, toggle }) => {
+const Bookaticket = ({ isOpen, toggle }) => {
     return (
         <>
         <div style={(!isOpen) ? {opacity: 0, pointerEvents: "none"} : {opacity: 1, pointerEvents: "all"}} className={styles.Container}>
@@ -21,3 +21,5 @@ export const Bookaticket = ({ isOpen, toggle }) => {
         </>
     )
 };
+
+export default Bookaticket;

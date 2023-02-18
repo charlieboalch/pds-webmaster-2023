@@ -1,8 +1,8 @@
-import {Navbar} from './Navbar/inde'
-import {Sidebar} from "./Sidebar/inde";
+import Navbar from './Navbar/inde'
+import Sidebar from "./Sidebar/inde";
 import {useState} from "react";
 import styles from '../../styles/components/Layout.module.css'
-import {Bookaticket} from "./Ticket/Bookaticket";
+import Bookaticket from "./Ticket/Bookaticket";
 // import styles from '../../styles/Ticket/Bookaticket'
 
 

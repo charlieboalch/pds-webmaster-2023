@@ -3,7 +3,7 @@ import {FaBars} from 'react-icons/fa'
 import styles from '../../../styles/components/Navbar.module.css'
 import Link from "next/link";
 
-export const Navbar = ({ toggle, book }) => {
+const Navbar = ({ toggle, book }) => {
     return (
 
         <div className={styles.nav}>
@@ -33,3 +33,5 @@ export const Navbar = ({ toggle, book }) => {
         </div>
     )
   };
+
+  export default Navbar;

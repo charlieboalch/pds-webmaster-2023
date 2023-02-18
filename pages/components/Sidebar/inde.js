@@ -3,7 +3,7 @@ import styles from "../../../styles/components/Sidebar.module.css"
 import Link from "next/link";
 import {FaTimes} from "react-icons/fa";
 
-export const Sidebar = ({ isOpen, toggle, book }) => {
+const Sidebar = ({ isOpen, toggle, book }) => {
     return (
         <div onClick={toggle} className={styles.sidebarcontainer} style={(isOpen) ? {opacity : 1, pointerEvents: "all"} : {opacity: 0, pointerEvents: "none"}}>
             <div className={styles.icon} onClick={toggle}>
@@ -31,3 +31,5 @@ export const Sidebar = ({ isOpen, toggle, book }) => {
         </div>
     )
 }
+
+export default Sidebar;
